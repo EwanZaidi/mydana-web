@@ -1518,6 +1518,15 @@ nav.transparent.module.widget-handle{
 	right: 0;
 }
 
+.logo {
+	margin-top:10px;
+	max-height: 10%;
+	max-width: 40%;
+	vertical-align: middle;
+	border: 0;
+	display: inline;
+}
+
 nav.transparent .module.widget-handle i {
 	opacity: 1;
 	color: #fff;
