@@ -1405,6 +1405,29 @@ h4.uppercase {
 	padding: 0;
 }
 
+.pl50 {
+	padding-left: 50px !important;
+}
+
+.pr50 {
+	padding-right: 50px !important;
+}
+
+.dpd {
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #FFF !important;
+	opacity: 0.5;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	max-width: 100%;
+	white-space: normal;
+	font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 .mb80 {
 	margin-bottom: 80px;
 }
@@ -1516,6 +1539,11 @@ nav.transparent.module.widget-handle{
 
 .right{
 	right: 0;
+}
+
+.arrow{
+	font-size: 70px !important;
+	margin-top: 150%;
 }
 
 .logo {
