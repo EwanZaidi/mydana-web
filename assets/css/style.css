@@ -2573,16 +2573,16 @@ form .align-right{
 	color: #222222;
 }
 .box-login{
- background-color: #fcfbf9;
+ background-color: #ffffff;
 }
 .box-signup{
-max-width: 400px;
+max-width: 600px;
 margin: auto;
 background-color:#fff;
 padding:20px;
 }
 .site-signup{
- background-color: #fcfbf9;
+ background-color: #ffffff;
  padding-bottom: 20px;
  padding-top: 20px;
 }
@@ -4744,3 +4744,13 @@ color : #222222;
 		  border-color: rgba(black);
 		  background: white;
 	  }
+
+.taj10{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.tam10{
+	text-align: center;
+	margin-top: 10px;
+}
