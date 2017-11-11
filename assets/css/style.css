@@ -822,6 +822,22 @@ width:400px;
 
 }
 
+.ml375 {
+	margin-left: 37.5%;
+	margin-bottom: 20px;
+}
+
+.tac{
+	text-align:center; 
+	margin-bottom:36px;
+}
+.img-responsive{
+	height: 100vh;
+}
+
+.w25 {
+	width: 25%;
+}
 .desc-campaign h4.main-title{
 font-size: 16px;
 font-weight:bold;
@@ -908,7 +924,7 @@ text-align:left;
 	font-size: 12px;
 	color: #555;
 	margin-bottom: 8px;
-	display: inline-block;
+	text-align: left !important;
 }
 .campaign-box a.category:hover{
 	color: #73b941;
@@ -918,6 +934,7 @@ text-align:left;
 	margin-bottom: 10px;
 	height: 20px;
 	overflow: hidden;
+	text-align: left !important;
 }
 .campaign-box h3 a{
 	color: #F04868;
@@ -928,6 +945,7 @@ text-align:left;
 	margin-bottom: 13px;
 	max-height: 47px;
 	overflow: hidden;
+	text-align: left !important;
 }
 .campaign-box .author-icon{
 	margin-right: 10px;
@@ -1624,7 +1642,7 @@ img{
   .navbar{
 	position:fixed;
 	width:100%;
-	background:none;
+	background:#292929;
 	z-index:10;
 	border-radius:0;
 	border-color:transparent;
@@ -2575,8 +2593,28 @@ form .align-right{
 .box-login{
  background-color: #ffffff;
 }
+
+.fs200{
+	font-size:50px;
+}
+
+.mg15{
+	margin-left: 15%
+}
+
+.donateheader {
+	font-size: 60px; 
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.taj {
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
 .box-signup{
-max-width: 600px;
+max-width: 80%;
 margin: auto;
 background-color:#fff;
 padding:20px;
@@ -4809,6 +4847,28 @@ color : #222222;
 	font-size: 15px;
 	text-align: center;
 	width: 40%;
+}
+
+.centered5 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	text-align: center;
+	width: 40%;
+	color:white;
+}
+
+.centered6 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	text-align: center;
+	width: 60%;
+	color:white;
 }
 
 .tam10{
