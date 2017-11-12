@@ -4887,6 +4887,8 @@ color : #222222;
 	  border-left: 4px solid; 
 	  border-color:black;
   }  
+  
+
 
   .cpl {
 	margin-top: 10px;
@@ -4927,10 +4929,23 @@ color : #222222;
 	  margin-top: 10px;
   }
 
+  .pd10 {
+	  padding-top:20px;
+	  padding-bottom: 20px;
+  }
+
   .ml2 {
 	  margin-left: 2%;
   }
-  
+
+.pb125{
+	padding-top: 125px !important;
+}
+
+.pb80 {
+	margin-bottom: 36px !important;
+	margin-top: 80px !important;
+}
   .cplf {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   }
