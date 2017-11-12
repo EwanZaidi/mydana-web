@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default" style="background:#292929;">
+	<nav class="navbar navbar-default" style="background:#292929; opacity:0.5;">
 		<div class="container-fluid pl50 pr50">
 		  <!-- Brand and toggle get grouped for better mobile display -->
 		  <div class="navbar-header">
@@ -29,7 +29,7 @@
 			</a>
 		  </div>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#" style='color:white; font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 11px'>MAKLUMAT</a></li>
+				<li><a href="#" class="fc">MAKLUMAT</a></li>
 			  <li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style='color:white; font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 11px'>PROGRAM <span class="caret"></span></a>
 				<ul class="dropdown-menu" style="background: #292929;">
@@ -40,6 +40,7 @@
 					<li><a href="#" class="dpd">PRIHATIN ILMU</a></li>
 				</ul>
 			  </li>
+			  <li><a href="#" class="fc">DAFTAR MASUK</a></li>
 			</ul>
 		  </div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
@@ -47,7 +48,7 @@
 	  
 	  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
-		<ol class="carousel-indicators">
+		<ol class="carousel-indicators indicators">
 		  <li data-target="#carousel-example-generic " class="active" data-slide-to="0"></li>
 		  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 		  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -89,7 +90,7 @@
 			<section>
 				<div class="container">
 					<div class="row text-center">
-						<h4 class="uppercase mb80">KEMPEN TERKINI</h4>
+						<h4 class="uppercase mb80 f40">KEMPEN TERKINI</h4>
 						<div class="col-sm-6 col-md-4">
 							<div class="campaign-item wow fadeInUp" data-wow-delay=".1s">
 								<a class="overlay" href="campaignlist.htm">
@@ -183,42 +184,44 @@
 						<br>
 					</div>
 					<div class="row text-center">
-						<button class="mt80 btn btn-primary">Tambah Lagi</button>
+						<button class="mt80 btn btn-secondary">Tambah Lagi</button>
 					</div>
 				</div>
 			</section>
 			<br/>
 
-			<section style="background: rgb(255, 0, 234)">
+			<section class="c666">
 					<div class="container">
 						<div class="row text-center">
-							<div style="width:80%; margin-left:10%">
-								<h3>Yayasan MyPrihatin (MYPRIHATIN), ialah sebuah organisasi bukan berorientasikan keuntungan dan telah diluluskan
+							<div class="f20 sw80">
+								<h3 class="fw">Yayasan MyPrihatin (MYPRIHATIN), ialah sebuah organisasi bukan berorientasikan keuntungan dan telah diluluskan
 										penubuhannya di bawah Akta Pemegang Amanah (Pemerbadanan) 1952 [Akta 258], Bahagian Hal Ehwal Undang-Undang, Jabatan
 										Perdana Menteri (BHEUU, JPM) pada 4 April 2015. 
 								</h3>
 						</div>
 						<div class="row text-center">
-							<button class="mt80 btn btn-primary">Button</button>
+							<button class="mt80 bw btn btn-secondary">Button</button>
 						</div>
 					</div>
 				</section>
 
-			<section style="background : rgb(102, 181, 255); padding-top:50px !important; padding-bottom:0 !important;">
-				<div class="container" style="margin-bottom:0">
+			<section class="apps" style="background-image: url('assets/images/apps.jpg')">
+				<div class="container mb00">
 					<div class="row">
-						<div class="col-md-6">
-							<img src="assets/images/iphone.png" style="margin:0;">
+						<div class="col-md-5">
+							<img src="assets/images/iphone.png">
 						</div>
-						<div class="col-md-6" style="padding-right:30px;padding-top:120px !important;">
-							<h1 style="font-size:40px">Applikasi my dana</h1><br>
-							<p style="text-align:left; font-size: 20px;">Yayasan MyPrihatin memperkenalkan aplikasi mudah alih MyDana sebagai platform untuk orang ramai menyalurkan bantuan secara atas talian</p>	
-							<div class="row" style="margin-top:20px;">
+						<div class="col-md-7">
+							<div class="row bblack">
+								<h1 class="fs40">Applikasi my dana</h1><br>
+								<p class="f20">Yayasan MyPrihatin memperkenalkan aplikasi mudah alih MyDana sebagai platform untuk orang ramai menyalurkan bantuan secara atas talian</p>	
+							</div>
+							<div class="row mt20" >
 								<div class="col-md-3"> 
-									<img src="assets/images/googleplay.png" style="height:50px; margin-right:0px"/>
+									<img src="assets/images/googleplay.png"/>
 								</div>
 								<div class="col-md-3"> 
-									<img src="assets/images/appstore.png" style="height:50px;"/>
+									<img src="assets/images/appstore.png"/>
 								</div>
 							</div>
 						</div>
@@ -226,17 +229,17 @@
 				</div>
 			</section>
 
-			<section style="background : rgb(102, 255, 160);">
-				<div class="container" style="margin-bottom:0;">
+			<section class="subscribe">
+				<div class="container mb00">
 					<div class="row">
-						<div class="col-md-6" style="text-align:left; ">	
-							<h1 style="font-size:40px">Get Fresh Update On Email</h1>
-							<p style="font-size:20px">We'll never share your email address and you can opt out at any time, we promise</p>
+						<div class="col-md-6 tal">	
+							<h1 class="fs40 tcb">Get Fresh Update On Email</h1>
+							<p class="f20 tcb mt20">We'll never share your email address and you can opt out at any time, we promise</p>
 						</div>
-						<div class="col-md-6" style="margin-top:30px;">
+						<div class="col-md-6 mt30">
 							<div class="row">
-								<div class="input-group margin-bottom-sm">
-									<input type="text" size="50"><button class="btn btn-primary">Subscribe</button>
+								<div class="input-group margin-bottom-sm ml50">
+									<input class="bb" type="text" size="50"><button class="btn btn-secondary">Subscribe</button>
 								</div>
 							</div>
 						</div>
