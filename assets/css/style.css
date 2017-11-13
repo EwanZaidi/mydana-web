@@ -4947,6 +4947,32 @@ color : #222222;
 	margin-top: 50px !important;
 }
 
+.numberCircle {
+    border-radius: 50%;/* remove if you don't care about IE8 */
+
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+}
+
+.div2 {
+	background: #fff;
+    width: 950px;
+    height: 300px;    
+    padding: 50px;
+	border: 5px solid #292929;
+	position: relative;
+	margin-top: -5%;
+	margin-left: 15%;
+	padding-left: 20%;
+	z-index: 2;
+}
+
 .pb80 {
 	margin-bottom: 36px !important;
 	margin-top: 80px !important;
