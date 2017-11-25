@@ -4969,13 +4969,29 @@ color : #222222;
 .div2 {
 	background: #fff;
     width: 60%;
-    height: 300px;    
-	border: 3px solid #292929;
+    height: 400px;    
+	border: 2px solid #292929;
 	position: relative;
 	margin:auto;
 	padding:10px;
 	z-index: 2;
-	margin-top: -7%;
+	margin-top: -2%;
+}
+
+.div3 {
+	border-radius: 50%;
+	width: 170px;
+	height: 170px;
+	background: #fff;
+	border: 2px solid #292929;
+	position: relative;
+	margin:auto;
+	padding:10px;
+	z-index: 3;
+	margin-top: -13%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 .h1p{
@@ -5006,6 +5022,14 @@ color : #222222;
 	padding: auto;
 	margin: auto;
 	margin-bottom: 2%;
+}
+
+.ml40{
+	margin-left:30%;
+}
+
+.mr40{
+	margin-right:30%;
 }
 
 .bd1{
