@@ -5063,6 +5063,26 @@ color : #222222;
     color: white;
 }
 
+.demo {
+    width:450px;
+}
+.ul1 {
+    list-style: none outside none !important;
+    padding-left: 0 !important;
+    margin-bottom:0 !important;
+}
+.li1 {
+    display: block !important;
+    float: left !important;
+    margin-right: 6px !important;
+    cursor:pointer !important;
+}
+.img {
+    display: block !important;
+    height: auto !important;
+    max-width: 100% !important;
+}
+
 .centered {
     position: absolute;
     top: 30%;
@@ -5073,7 +5093,25 @@ color : #222222;
 	width: 40%;
 }
 
+.bdr {
+	text-align: center; 
+	border:2px solid black;
+	height:300px;
+	margin: auto;
+}
+
+.bdr1 {
+	text-align: center; 
+	border:2px solid black;
+	height:300px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
 .c1 {
+	padding: 3%;
+	padding-left: 15%;
+	padding-right: 15%;
 	text-align:center;
 	margin-top:5%;
 }
