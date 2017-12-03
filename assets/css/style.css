@@ -947,12 +947,12 @@ text-align:left;
 .campaign-box a.category:hover{
 	color: #73b941;
 }
-.campaign-box h3{
-	color: #F04868;
-	margin-bottom: 10px;
-	height: 20px;
-	overflow: hidden;
-	text-align: left !important;
+.campaign-box h3 {
+    color: #F04868;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: left !important;
+    font-size: 25px;
 }
 .campaign-box h3 a{
 	color: #F04868;
@@ -1359,7 +1359,6 @@ h2.uppercase {
 }
 
 .uppercase {
-	text-transform: uppercase;
 }
 
 .bold {
@@ -1491,7 +1490,7 @@ h4.uppercase {
 }
 
 .mt80 {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 section {
@@ -1940,8 +1939,8 @@ img{
 	margin-bottom: 12px;
 }
 
-.campaign-detail .campaign-box .process{
-margin-top: 35px;
+.campaign-detail .campaign-box .process {
+    margin-top: 20px;
 }
 .page-title .banner-description{
 	color: #fff;
@@ -2660,12 +2659,12 @@ form .align-right{
 .bblack {
 	background: black;
 	opacity: 0.5;
-	padding-left: 2%;
+	padding: 5%;
 }
 
 .apps {
-	padding-top:50px !important; 
-	padding-bottom:0 !important
+    padding-top: 20px !important;
+    padding-bottom: 0 !important;
 }
 
 .subscribe {
@@ -2685,18 +2684,19 @@ form .align-right{
 }
 
 .c666 {
-	background: #292929;
+    background: #292929;
+    padding: 50px 0;
 }
 
 .fw {
-	color: #fff;
-	font-size: 20px;
-	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    line-height: 30px;
 }
 
 .sw80 {
-	width: 80%;
-	margin-left: 10% !important;
+	width: 100%;
 	text-align: center !important;
 }
 
@@ -2711,6 +2711,11 @@ form .align-right{
 }
 
 .taj {
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.taj1 {
 	text-align: justify;
 	margin-bottom: 40px;
 }
@@ -4898,6 +4903,13 @@ color : #222222;
 	margin-left:1px;
 	
   }
+
+  .cpl3 {
+	margin-left:0px;
+	
+  }
+
+
   
   #owl-demo .item{
 	margin: 3px;
@@ -5162,23 +5174,24 @@ color : #222222;
 
 .centered5 {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
-	width: 40%;
+	width: 50%;
 	color:white;
+	line-height:50px;
 }
 
 .centered6 {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
-	width: 60%;
+	width: 50%;
 	color:white;
 }
 
@@ -5213,3 +5226,27 @@ color : #222222;
 .containin {
 	width:100% !important; height:321px !important; object-fit:fill !important;
 }
+
+.search {
+	margin-left:40px;
+	position: relative;
+	color: #aaa;
+	font-size: 16px;
+	display: inline-block;
+  }
+  .search input {
+	width: 400px;
+	height: 40px;
+	background: #fcfcfc;
+	border: 2px solid #F04868;
+  }
+  .search input {
+	text-indent: 30px;
+	padding-right: 15px;
+	box-sizing: border-box;
+  }
+  .search .fa-envelope-o {
+	position: absolute;
+	top: 12px;
+	left: 10px;
+  }
