@@ -59,7 +59,11 @@
 		height: auto;
 		z-index: 9;
 		position: relative;
-		background-color: #fff;
+		background-color: #292929;
+	}
+
+	.h100{
+		height: auto;
 	}
 	.site-header2{
 		height: auto;
@@ -73,7 +77,7 @@
 	}
 	.main-menu ul{
 		position: fixed;
-		background-color: #fff;
+		background-color: #292929;
 		top: 80px;
 		left: -240px;
 		margin-left: 0;
@@ -236,6 +240,12 @@
 	.site-main{
 		padding-bottom: 60px;
 	}
+
+	.sm2{
+		margin-top:30px;
+		margin-bottom:0px;
+	}
+
 	.main-content{
 		margin-bottom: 30px;
 	}
@@ -467,6 +477,12 @@
 	.site-main{
 		padding-bottom: 60px;
 	}
+
+	.sm2{
+		margin-top:30px;
+		margin-bottom:0px;
+	}
+
 	.top-site h1 {
 		font-size: 20px;
 		max-width: 100%;
@@ -518,13 +534,13 @@
 
 	.arrowl{
 		margin-left: 10%;
-		color: white;margin-top:150px;
+		color: white;margin-top:70px;
 		font-size:40px !important;
 	}
 	
 	.arrowr{
 		margin-right: 10%;
-		color: white;margin-top:150px;
+		color: white;margin-top:70px;
 		font-size:40px !important;
 	}
 	}
@@ -939,9 +955,14 @@
 		font-weight:bold;
 		font-size:13px !important;
 	}
+
+	.container3 h1 {
+		font-size: 40px;
+		margin-top: 30px;
+	}
 	
 	.p2{
-		margin-left:5px;
+		margin-left:14px;
 	}
 	
 	.derma button{

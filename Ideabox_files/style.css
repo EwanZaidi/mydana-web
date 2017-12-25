@@ -63,7 +63,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body{
 	font-size: 14px;
 	color: #555555;
-	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 }
 h1,
@@ -74,7 +74,7 @@ h5,
 h6 {
 	clear: both;
 	color: #222222;
-	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Rubik';
 	font-weight: 500;
 }
 h1 {
@@ -106,7 +106,7 @@ a{
 	display: block;
 }
 a:hover{
-	color: #F04868;
+	color: #40637B;
 	text-decoration:none;
 }
 a:focus{
@@ -145,7 +145,7 @@ input[type=number]:focus,
 input[type=search]:focus,
 input[type=checkbox]:focus,
 textarea:focus {
-	border-color: #F04868;
+	border-color: #40637B;
 	outline: none;
 	outline-offset: 0;
 }
@@ -155,7 +155,7 @@ textarea:focus {
 .table > tfoot > tr > th, 
 .table > thead > tr > td, 
 .table > thead > tr > th {
-	border-color: #FCD998;
+	border-color: #40637B;
 }
 
 /*==========================================================
@@ -165,7 +165,7 @@ textarea:focus {
 	padding: 80px 0 80px 0;
 }
 .btn-primary{
-	background-color: #F04868;
+	background-color: #40637B;
 	padding: 0 20px;
 	border-radius: 2px 2px 2px 2px;
 	-moz-border-radius: 2px 2px 2px 2px;
@@ -176,8 +176,8 @@ textarea:focus {
 	display: inline-block;
 }
 .btn-secondary {
-    color: #F04868;
-    border: 2px solid #F04868;
+    color: #40637B;
+    border: 2px solid #40637B;
     padding: 0 20px;
     border-radius: 3px 3px 3px 3px;
     -moz-border-radius: 3px 3px 3px 3px;
@@ -189,12 +189,12 @@ textarea:focus {
     background: none;
 }
 .btn-secondary:hover{
-	background-color: #F04868;
-  border-color: #F04868;
+	background-color: #40637B;
+  border-color: #40637B;
 	color: #fff;
 }
 .btn-primary:hover{
-	background-color: #F04868;
+	background-color: #40637B;
 }
 .title{
 	text-align: center;
@@ -240,7 +240,7 @@ textarea:focus {
   left: 10px;
   right: 10px;
   height: 1px;
-  background: #000;
+  background: #fff;
 }
 .c-hamburger span::before,
 .c-hamburger span::after {
@@ -249,7 +249,7 @@ textarea:focus {
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: #000;
+  background-color: #fff;
   content: "";
 }
 .c-hamburger span::before {
@@ -305,7 +305,7 @@ ul.socials-top{
 }
 .top-header .phone{
 	float: right;
-	color: #6a6a6a;
+	color: #40637B;
 }
 ul.socials-top li{
 	list-style: none;
@@ -316,17 +316,27 @@ ul.socials-top li:last-child{
 	margin-right: 0;
 }
 ul.socials-top li i{
-	color: #6a6a6a;
+	color: #40637B;
 }
 ul.socials-top li:hover i{
-	color: #73b941;
+	color: #40637B;
 }
+
+.site-header{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	left: 0;
+	right: 0;
+}
+
 .site-header.fixed{
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	background: #fff;
+	background: #292929;
 	z-index: 99;
 	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,.1);
 	-moz-box-shadow: 0 3px 3px rgba(0,0,0,.1);
@@ -491,7 +501,7 @@ ul.socials-top li:hover i{
 	z-index: 99;
 	width: 200px;
 	left: 0;
-	background-color: #fff;
+	background-color: #292929;
 	visibility: hidden;
 	opacity: 0;
 	transition: all 0.4s;
@@ -511,10 +521,10 @@ ul.socials-top li:hover i{
 	padding: 12px 15px;
 }
 .main-menu ul li a{
-	color: #20222b; 
+	color: #fff; 
 }
 .main-menu ul li:hover > a{
-	color: #F04868;
+	color: #40637B;
 }
 
 .main-menu2 ul{
@@ -559,7 +569,7 @@ ul.socials-top li:hover i{
 	color: #fff; 
 }
 .main-menu2 ul li:hover > a{
-	color: #F04868;
+	color: #40637B;
 }
 /*==========================================================
 	5. MAIN
@@ -568,6 +578,7 @@ ul.socials-top li:hover i{
 	padding-bottom: 0px;
 }
 .site-main{
+	z-index: -1;
 	padding-bottom: 20px;
 }
 .site-main .sideshow{
@@ -622,7 +633,7 @@ ul.socials-top li:hover i{
 	bottom: 0;
 	border-radius: 25px;
 	width: 46%;
-	background-color: #73b941;
+	background-color: #CB9B18;
 	display: block;
 	-webkit-border-top-right-radius: 25px;
 	-webkit-border-bottom-right-radius: 25px;
@@ -636,17 +647,17 @@ ul.socials-top li:hover i{
 	     -moz-border-radius-bottomleft: 25px;
 	            border-top-left-radius: 25px;
 	         border-bottom-left-radius: 25px;
-	background-color: #F04868;
+	background-color: #CB9B18;
 }
 .process .raised span:after {
 	content: "";
 	position: absolute;
 	top: 0; left: 0; bottom: 0; right: 0;
-	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #F04868), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, #F04868), color-stop(.75, #F04868), color-stop(.75, transparent), to(transparent));
-	background-image: -webkit-linear-gradient(-45deg, #F04868 25%, transparent 25%, transparent 50%, #F04868 50%, #F04868 75%, transparent 75%, transparent);
-	background-image: -moz-linear-gradient(-45deg, #F04868 25%, transparent 25%, transparent 50%, #F04868 50%, #F04868 75%, transparent 75%, transparent);
-	background-image: -ms-linear-gradient(-45deg, #F04868 25%, transparent 25%, transparent 50%, #F04868 50%, #F04868 75%, transparent 75%, transparent);
-	background-image: -o-linear-gradient(-45deg, #F04868 25%, transparent 25%, transparent 50%, #F04868 50%, #F04868 75%, transparent 75%, transparent);
+	background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #CB9B18 ), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, #CB9B18 ), color-stop(.75, #CB9B18 ), color-stop(.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(-45deg, #CB9B18  25%, transparent 25%, transparent 50%, #CB9B18  50%, #CB9B18  75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(-45deg, #CB9B18  25%, transparent 25%, transparent 50%, #CB9B18  50%, #CB9B18  75%, transparent 75%, transparent);
+	background-image: -ms-linear-gradient(-45deg, #CB9B18  25%, transparent 25%, transparent 50%, #CB9B18  50%, #CB9B18  75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(-45deg, #CB9B18  25%, transparent 25%, transparent 50%, #CB9B18  50%, #CB9B18  75%, transparent 75%, transparent);
 	z-index: 1;
 	-webkit-background-size: 20px 20px;
 	-moz-background-size:    20px 20px;
@@ -1126,7 +1137,7 @@ ul.menu-category li.active:after{
 	font-weight: 400;
 }
 .site-footer .footer-menu .footer-menu-item li:hover a{
-	color: #73b941;
+	color: #40637B;
 }
 .footer-menu-item.newsletter .newsletter-description{
 	color: #f5f6f6;
@@ -1153,7 +1164,7 @@ ul.menu-category li.active:after{
 	top: 0;
 	right: 0;
 	border: 0;
-	background: #73b941;
+	background: #40637B;
 	bottom: 0;
 	padding: 0 18px;
 	border-radius: 3px;
@@ -1198,24 +1209,24 @@ ul.menu-category li.active:after{
 	transition: 0.3s all;
 }
 .follow li.instagram i{
-	color: #f56040;
+	color: #40637B;
 }
 .follow li.instagram:hover{
-	background-color: #f56040;
+	background-color: #40637B;
 	transition: 0.3s all;
 }
 .follow li.google i{
-	color: #dd4b39;
+	color: #40637B;
 }
 .follow li.google:hover{
-	background-color: #dd4b39;
+	background-color: #40637B;
 	transition: 0.3s all;
 }
 .follow li.youtube i{
-	color: #cd201f;
+	color: #40637B;
 }
 .follow li.youtube:hover{
-	background-color: #cd201f;
+	background-color: #40637B;
 	transition: 0.3s all;
 }
 .follow li i{
@@ -2724,14 +2735,14 @@ form .create-account input[type="checkbox"]{
 	background-color: #f5f6f6;
 }
 .campaign-detail .button .btn-secondary{
-	border-color: #F04868;
+	border-color: #40637B ;
 	background-color: none;
-	color: #F04868;
+	color: #40637B ;
 	font-weight: 500;
 }
 .campaign-detail .button .btn-secondary:hover{
-	background-color: #F04868;
-	border-color: #F04868;
+	background-color: #40637B ;
+	border-color: #40637B ;
 	color: #fff;
 }
 .campaign-detail .button .btn-secondary i{
@@ -2837,6 +2848,7 @@ form .create-account input[type="checkbox"]{
   position: relative;
 	margin-top: 20px;
 }
+
 .campaign-slider .owl-controls .owl-buttons,
 .shop-slider .owl-controls .owl-buttons{
 	position: absolute;
@@ -2851,8 +2863,8 @@ form .create-account input[type="checkbox"]{
 .shop-slider .owl-controls .owl-buttons .owl-prev{
 	border-radius: 0;
 	background: none;
-	border: 1px solid #F04868;
-	color: #F04868;
+	border: 1px solid #40637B ;
+	color: #40637B ;
 	opacity: 1;
 	margin: -13px 0 0 0;
 }
@@ -2864,7 +2876,7 @@ form .create-account input[type="checkbox"]{
 .campaign-slider .owl-controls .owl-buttons .owl-prev:hover,
 .shop-slider .owl-controls .owl-buttons .owl-next:hover,
 .shop-slider .owl-controls .owl-buttons .owl-prev:hover{
-	background-color: #F04868;
+	background-color: #40637B ;
 	color: #fff;
 }
 .campaign-slider .owl-controls .owl-buttons .owl-next,
@@ -2892,7 +2904,7 @@ form .create-account input[type="checkbox"]{
 	margin-bottom: 35px;
 }
 .campaign-history .tabs-controls li.active{
-	border-bottom: 1px solid #F04868;
+	border-bottom: 1px solid #CB9B18;
 }
 .campaign-history .tabs-controls li{
 	list-style: none;
@@ -3013,7 +3025,7 @@ form .create-account input[type="checkbox"]{
 	top: 10px;
 }
 #updates li:hover:before{
-	background-color: #F04868;
+	background-color: #40637B;
 }
 #updates li p{
 	margin-bottom: 5px;
@@ -3089,7 +3101,7 @@ form .create-account input[type="checkbox"]{
 	padding: 0 0 3px 0;
 }
 #respond button{
-	background-color: #F04868;
+	background-color: #40637B;
   padding: 0 20px;
 }
 .campaign-tabs button:last-child{
@@ -3810,7 +3822,7 @@ form .create-account input[type="checkbox"]{
     width: 25px;
     height: 25px;
     border-radius: 50%; 
-    background: #F04868;
+    background: #40637B;
     cursor: pointer;
 }
 
@@ -3818,7 +3830,7 @@ form .create-account input[type="checkbox"]{
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #F04868;
+    background: #40637B;
     cursor: pointer;
 }
 
@@ -3898,7 +3910,7 @@ form .create-account input[type="checkbox"]{
 }
 
 .bg-pink{
-	background:  #F04868;
+	background:  #40637B;
 }
 
 .mt150{
@@ -4079,5 +4091,17 @@ form .create-account input[type="checkbox"]{
 	color: white;margin-top:400px;
 }
 
+.sm2{
+	margin-top:180px;
+	margin-bottom:100px;
+}
+
+.h100{
+	height: 100vh;
+}
+
+.indicators{
+	margin-bottom:25px;
+}
 
 
